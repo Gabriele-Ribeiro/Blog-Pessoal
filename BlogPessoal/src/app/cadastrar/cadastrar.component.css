@@ -1,7 +1,30 @@
+body {
+    background-color:rgb(31, 31, 32);
+}
+
 #img-bg{
-    background-image: url('https://i.pinimg.com/564x/93/c4/52/93c45276f5842651fa8dc3b1fef7ca75.jpg');
-    min-height: 690px;
+    background-image: url('https://i0.wp.com/lizkohlerbrown.com/wp-content/uploads/2020/06/Untitled_Artwork-34.jpg?fit=1024%2C1024&ssl=1');
+    min-height: 650px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 20px solid rgb(20, 20, 20);
 }
+
+.bgC{
+    color: white;
+}
+
+button{
+    background-color:rgb(20, 20, 20);
+    color: white
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+

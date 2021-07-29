@@ -1,7 +1,32 @@
+body {
+    background-color:rgb(31, 31, 32);
+}
+
 #img-bg{
-    background-image: url('https://i.pinimg.com/564x/b0/bf/11/b0bf11d053e387f1a9bfffcfbd398acc.jpg');
-    min-height: 695px;
+    background-image: url('https://data.whicdn.com/images/342665651/original.jpg');
+    min-height: 650px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 20px solid rgb(20, 20, 20);
+}
+
+.bgC{
+    color: white;
+}
+
+button{
+    background-color:rgb(20, 20, 20);
+    color: white
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.hrC{
+    color: white;
 }
