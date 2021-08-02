@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(107, 106, 106);
+}
+
+.fs-54{
+    font-size: 50pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}
+
+button{
+    background-color:rgb(20, 20, 20);
+    color: white
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+a{
+    background-color:rgb(20, 20, 20);
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+

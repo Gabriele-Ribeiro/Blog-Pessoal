@@ -1,18 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(20, 20, 20)">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+       aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
           <li class="nav-item active">
-           <img src="https://media.gazetadopovo.com.br/viver-bem/2018/10/gatopretoantonino-visalli-458267-unsplash-768x576-256300b0.jpg"
+           <img src="{{foto}}"
             alt="Imagem do user" width="50px" height="50px" class="img-fluid rounded-circle">
           </li>
 
           <li class="nav-item">
-            <p class=" pl-10 m-0 font-weight-bold text-white fs-14">Nome do user</p>
+            <p class=" pl-10 m-0 font-weight-bold text-white fs-14">Olá, {{nome}}</p>
           </li>
 
           <li class="nav-item">
@@ -26,7 +29,7 @@
 
         <ul class="navbar-nav md-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item pl-10">
-                <a class="m-0 font-weight-bold text-white fs-14">Sair 
+                <a (click)= 'sair()' class="m-0 font-weight-bold text-white fs-14">Sair 
                     <i class="pl-10 fa fa-sign-out" aria-hidden="true"></i>
                 </a>
               </li>
@@ -35,3 +38,4 @@
       </div>
     </div>
   </nav>
+</body>
