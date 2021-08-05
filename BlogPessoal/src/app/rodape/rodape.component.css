@@ -10,7 +10,7 @@ ul.social-network li{
 }
 
 .fa{
-    font-size: 35pt;
+    font-size: 30pt;
     color: white;
     padding: 10px;
 }
@@ -24,5 +24,5 @@ ul.social-network li{
 }
 
 body{
-  background-color:rgb(20, 20, 20);  
+  background-color:rgb(31, 31, 32);  
 }

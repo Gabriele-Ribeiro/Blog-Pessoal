@@ -1,13 +1,5 @@
 body{
-    background-color: rgb(107, 106, 106);
-}
-
-.fs-54{
-    font-size: 50pt;
-}
-
-.fs-18{
-    font-size: 18pt;
+    background-color: rgb(52, 58, 64);
 }
 
 button{
@@ -17,19 +9,32 @@ button{
 
 button:hover{
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: rgbrgb(32, 32, 32);
+    border: 2px solid rgb(32, 32, 32);
     cursor: pointer;
 }
 
-a{
-    background-color:rgb(20, 20, 20);
+.fontC{
     color: white;
 }
-a:hover{
+
+.font{
+    color:rgb(32, 32, 32);
+}
+
+.font:hover{
+    color: rgb(98, 102, 105);
+}
+
+.aB{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.aB:hover{
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: rgb(5, 5, 5);
+    border: 2px solid rgb(32, 32, 32);
     cursor: pointer;
 }
 
